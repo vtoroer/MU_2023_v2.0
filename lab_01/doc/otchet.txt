@@ -1,1 +1,22 @@
 I lost it T_T
+
+$ bash dev_to_stg.txt
+Already on 'dev'
+Your branch is up to date with 'origin/dev'.
+From https://github.com/vtoroer/MU_2023_v2.0
+ * branch            dev        -> FETCH_HEAD
+Already up to date.
+Switched to branch 'stg'
+Updating a878ca8..27e942b
+Fast-forward
+ dev_to_stg.txt        | 9 +++++++++
+ lab_01/doc/otchet.txt | 1 +
+ stg_to_prd.txt        | 8 ++++++++
+ 3 files changed, 18 insertions(+)
+ create mode 100644 dev_to_stg.txt
+ create mode 100644 lab_01/doc/otchet.txt
+ create mode 100644 stg_to_prd.txt
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vtoroer/MU_2023_v2.0.git
+   a878ca8..27e942b  stg -> stg
+ * [new tag]         stg-20230520033951 -> stg-20230520033951
