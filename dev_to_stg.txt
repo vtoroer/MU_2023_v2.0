@@ -1,0 +1,9 @@
+#!/bin/bash
+git checkout dev
+git pull origin dev
+git checkout stg
+git merge dev
+timestamp=$(date +%Y%m%d%H%M%S)
+tag="stg-$timestamp"
+git tag $tag
+git push origin stg --tags
